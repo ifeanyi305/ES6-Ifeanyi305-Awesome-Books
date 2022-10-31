@@ -1,4 +1,12 @@
 import './modules/navigation.js';
+/* eslint-disable */
+import {
+  DateTime, Duration, FixedOffsetZone,
+   IANAZone, Info, Interval, InvalidZone,
+    Settings, SystemZone, VERSION, Zone,
+} from './modules/luxon.js';
+/* eslint-enable */
+import './modules/dateTime.js';
 
 class Book {
   constructor(title, author) {

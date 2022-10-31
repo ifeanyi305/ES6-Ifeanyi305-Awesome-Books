@@ -184,9 +184,14 @@ h3 {
   font-size: 18px;
 }
 
-.date {
+#dateTime {
   padding: 5px;
   float: right;
+}
+
+.date,
+.time {
+  color: green;
 }
 
 footer {
