@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module"  src="index.js"></script>
+</head>
+<body>
+
+    <header>
+        <span>Awesome Books</span>
+        <nav>
+            <ul class="nav-links">
+                <li class="tab"><a href="#book-library" class="list">List</a></li>
+                <li class="tab"><a href="#new-book" class="add">Add new</a></li>
+                <li class="tab"><a href="#contact" class="contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="dateTime">
+        <span class="date"></span>
+      </div>
+    <section id="book-library">
+        <h1 class="description">All awesome books</h1>
+        <div class="main-container">
+            <div id="book-collection">
+                
+                <tbody id="booklist"></tbody>            
+            </div>
+        </div>
+    </section>
+
+    <section id="new-book">
+            <form class="book-input">
+                <h2 class="description">Add a new book</h2>
+                <input type="text" name="text" id="title" placeholder="Title" required>
+                <br>
+                <br>
+                <input type="text" name="Author" id="author" placeholder="Author" required>
+                <br>
+                <br>
+                <button type="submit" id="add-button">Add New Books</button>
+            </form>
+    </section> 
+
+    <section id="contact">
+        <div>
+            <h3 class="description centers">Contact Information</h3>
+            <p class="descriptions">Do you have any questions or you just want to say Hello? You can reach out to us!</p>
+            <ul>
+                <li class="descriptions">My Email address: <b> otijoseph305@gmail.com</b></li>
+                <li class="descriptions">My Phone number: <b>07067255308</b></li>
+                <li class="descriptions">My Address: <b>No13 nwosu street aba, Nigeria.</b></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <span>&copy; Copyright Awesome Book Publishers <small>2022</small></span>
+    </footer>
+</body>
+</html>
